@@ -121,6 +121,7 @@ public class GamePanel extends JPanel implements ActionListener {
                 break;
         }
     }
+
     public void checkApple() {
         if (X_COORDINATES[0] == applePositionX && Y_COORDINATES[0] == applePositionY) {
             bodyParts++;
@@ -128,6 +129,7 @@ public class GamePanel extends JPanel implements ActionListener {
             newApple();
         }
     }
+
     public void checkCollisions() {
         int head_X = X_COORDINATES[0];
         int head_Y = Y_COORDINATES[0];
@@ -145,6 +147,7 @@ public class GamePanel extends JPanel implements ActionListener {
             timer.stop();
         }
     }
+
     public void gameOver(Graphics g) {
         g.setColor(Color.red);
         g.setFont(new Font("Ink Free", Font.BOLD, 70));
