@@ -1,4 +1,4 @@
-# Snake Game
+# SnakeGame
 Let user play Snake Game on a pop-up window.
 
 Reference: [Java snake game](https://youtu.be/bI6e6qjJ8JQ)
